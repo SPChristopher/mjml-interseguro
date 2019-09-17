@@ -1,0 +1,73 @@
+<mjml>
+  <mj-head>
+    <mj-title>Interseguro</mj-title>
+    <mj-style inline="inline">
+      .border-round {
+        border: 1px solid #009BDC;
+        border-radius: 15px !important;
+      }
+
+      .icon {
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+
+    <!-- header -->
+    <mj-section padding="0px" background-color="#fff">
+      <mj-column>
+        <mj-image src="assets/header_LogoInterseguroV1.png" width="130px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="assets/fondo.jpg" background-size="cover" background-repeat="no-repeat">
+      <mj-column>
+        <mj-text padding="13% 0" align="center" color="#015091" font-size="20px"> Hola, Christopher </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- -->
+    <mj-wrapper padding="0" background-color="#fff">
+      <mj-section>
+        <mj-column>
+          <mj-text font-weight="bold" font-size="20px" align="center" color="#015091">No te falta nada para asegurar tu carro.<br />Adquiere tu seguro vehicular por solo $33.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column css-class="border-round" width="280px" padding="10px 40px">
+          <mj-text align="left" color="#dd166c" font-size="13px" padding="5px 0px">Por </mj-text>
+          <mj-text align="left" color="#015091" font-size="50px" padding="5px 0px">$60/mes</mj-text>
+          <mj-text align="right" color="#015091" font-size="12px" padding="5px 0px">Incluye IGV <br /> Sin intereses</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-button font-weight="bold" border-radius="5px" line-height="13px" background-color="#dd166c" href="#">!Compralo Ya¡</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- FOOTER -->
+    <mj-section background-color="#015091" padding="10px 0px">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image align="center" src="assets/logo-interseguro.png" width="160px"></mj-image>
+        <mj-text align="center" font-size="11px" color="#fff">segurovehicular@interseguro.com.pe</mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social icon-size="">
+          <mj-social-element css-class="icon" padding="0px 8px" src="assets/blogger.png" />
+          <mj-social-element padding="0px 8px" src="assets/facebook.png" />
+          <mj-social-element padding="0px 8px" src="assets/instagram.png" />
+          <mj-social-element padding="0px 8px" src="assets/linkein.png" />
+        </mj-social>
+        <mj-social>
+          <mj-social-element color="#fff" src="assets/telefono.png">
+            <span>(01)500 0000</span>
+          </mj-social-element>
+          <mj-social-element color="#fff" src="assets/whatsapp.png">
+            <span>977 822 185</span>
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

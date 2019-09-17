@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:./node_modules/.bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/spcristofer/Escritorio/mjml-proyecto/miProyecto/node_modules/cheerio/node_modules'
+
+npm manifest: 
+  {
+    "name": "miProyecto",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "mjml": "^4.5.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
