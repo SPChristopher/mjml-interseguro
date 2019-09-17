@@ -6,7 +6,6 @@
         border: 1px solid #009BDC;
         border-radius: 15px !important;
       }
-
       .icon {
       }
     </mj-style>
@@ -32,7 +31,7 @@
           <mj-text font-weight="bold" font-size="20px" align="center" color="#015091">No te falta nada para asegurar tu carro.<br />Adquiere tu seguro vehicular por solo $33.</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0">
+      <mj-section padding="0 20px">
         <mj-column css-class="border-round" width="280px" padding="10px 40px">
           <mj-text align="left" color="#dd166c" font-size="13px" padding="5px 0px">Por </mj-text>
           <mj-text align="left" color="#015091" font-size="50px" padding="5px 0px">$60/mes</mj-text>
