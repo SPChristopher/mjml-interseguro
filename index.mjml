@@ -3,10 +3,19 @@
     <mj-title>Interseguro</mj-title>
     <mj-style inline="inline">
       .border-round {
-        border: 1px solid #009BDC;
-        border-radius: 15px !important;
+      border: 1px solid #009BDC;
+      border-radius: 15px !important;
       }
-      .icon {
+
+      .container-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+      }
+
+      .container-icon > img {
+      padding: 0px 10px;
       }
     </mj-style>
   </mj-head>
@@ -52,19 +61,17 @@
         <mj-text align="center" font-size="11px" color="#fff">segurovehicular@interseguro.com.pe</mj-text>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-social icon-size="">
-          <mj-social-element css-class="icon" padding="0px 8px" src="assets/blogger.png" />
-          <mj-social-element padding="0px 8px" src="assets/facebook.png" />
-          <mj-social-element padding="0px 8px" src="assets/instagram.png" />
-          <mj-social-element padding="0px 8px" src="assets/linkein.png" />
-        </mj-social>
+        <mj-raw>
+          <div class="container-icon">
+            <img src="assets/blogger.png">
+            <img src="assets/facebook.png">
+            <img src="assets/instagram.png">
+            <img src="assets/linkein.png">
+          <div>
+        </mj-raw>
         <mj-social>
-          <mj-social-element color="#fff" src="assets/telefono.png">
-            <span>(01)500 0000</span>
-          </mj-social-element>
-          <mj-social-element color="#fff" src="assets/whatsapp.png">
-            <span>977 822 185</span>
-          </mj-social-element>
+          <mj-social-element color="#fff" src="assets/telefono.png"><span>(01)500 0000</span></mj-social-element>
+          <mj-social-element color="#fff" src="assets/whatsapp.png"><span>977 822 185</span></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
